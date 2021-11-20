@@ -1,0 +1,351 @@
+id, product_id, name, sale_price, original_price, default_style
+1, 1, "Forest Green & Black", null, 140, 1
+2, 1, "Desert Brown & Tan", null, 140, 0
+3, 1, "Ocean Blue & Grey", 100, 140, 0
+4, 1, "Digital Red & Black", null, 140, 0
+5, 1, "Sky Blue & White", 100, 140, 0
+6, 1, "Dark Grey & Black", null, 170, 0
+7, 2, "Black Lenses & Black Frame", null, 69, 0
+8, 2, "Black Lenses & Gold Frame", null, 69, 1
+9, 2, "Gold Lenses & Black Frame", null, 69, 0
+10, 2, "Gold Lenses & Gold Frame", null, 69, 0
+11, 3, "Black", null, 40, 1
+12, 3, "Grey", null, 40, 0
+13, 3, "Goldenrod", 35, 40, 0
+14, 3, "Maroon", 35, 40, 0
+15, 3, "Chartreuse", 25, 40, 0
+16, 3, "White", null, 40, 0
+17, 4, "Black", null, 65, 1
+18, 4, "Olive Green", null, 65, 0
+19, 4, "Grey", null, 65, 0
+20, 4, "Tan", null, 65, 0
+21, 4, "Red", null, 65, 0
+22, 4, "Pinstripe", null, 65, 0
+23, 4, "Khaki", null, 65, 0
+24, 4, "Plaid", null, 65, 0
+25, 4, "White", null, 65, 0
+26, 5, "White & White", null, 99, 1
+27, 5, "White & Red", null, 99, 0
+28, 5, "White & Black", null, 99, 0
+29, 5, "White & Blue", null, 99, 0
+30, 6, "White", null, 89, 1
+31, 6, "Black", null, 89, 0
+32, 7, "White Sole", null, 120, 0
+33, 7, "Black Sole", null, 120, 0
+34, 7, "Tan Sole", null, 120, 0
+35, 7, "Red Sole", null, 120, 0
+36, 7, "Yellow Sole", null, 120, 0
+37, 8, "Zebra Stripe", null, 900, 0
+38, 8, "Oreo", null, 750, 0
+39, 8, "Red Supply", null, 450, 0
+40, 8, "White", null, 450, 1
+41, 8, "Black", null, 950, 0
+42, 8, "Pink", null, 450, 0
+43, 8, "Green", null, 450, 0
+44, 8, "Butter", 400, 450, 0
+45, 8, "Grey", null, 450, 0
+46, 9, "White", null, 59, 0
+47, 10, "Reality", null, 500000000, 1
+48, 10, "Space", null, 500000000, 0
+49, 10, "Time", null, 500000000, 0
+50, 10, "Power", null, 500000000, 0
+51, 10, "Mind", null, 500000000, 0
+52, 10, "Soul", null, 500000000, 0
+53, 12, "Purple", null, 570, 1
+54, 13, "Silver", null, 130, 1
+55, 13, "Silver", null, 130, 0
+56, 13, "Violet", null, 130, 0
+57, 14, "Lime", null, 556, 1
+58, 14, "Violet", null, 556, 0
+59, 15, "Lime", null, 904, 1
+60, 15, "Cyan", null, 904, 0
+61, 15, "Cyan", null, 904, 0
+62, 16, "Fuchsia", null, 888, 1
+63, 16, "Azure", null, 888, 0
+64, 16, "Lavender", null, 888, 0
+65, 16, "Sky blue", 139, 888, 0
+66, 17, "Teal", null, 398, 1
+67, 17, "Purple", null, 398, 0
+68, 18, "Ivory", 45, 119, 1
+69, 18, "Black", null, 119, 0
+70, 19, "Purple", null, 573, 1
+71, 19, "Maroon", null, 573, 0
+72, 19, "Black", null, 573, 0
+73, 19, "Maroon", null, 573, 0
+74, 20, "Orange", null, 950, 1
+75, 21, "Orange", null, 390, 1
+76, 21, "Mint green", null, 390, 0
+77, 21, "Grey", null, 390, 0
+78, 21, "Sky blue", null, 390, 0
+79, 21, "Ivory", null, 390, 0
+80, 23, "Black", null, 123, 1
+81, 24, "Maroon", null, 648, 1
+82, 24, "Azure", null, 648, 0
+83, 24, "Indigo", null, 648, 0
+84, 26, "Cyan", null, 669, 1
+85, 26, "Silver", null, 669, 0
+86, 26, "Green", null, 669, 0
+87, 26, "Salmon", null, 669, 0
+88, 27, "Lavender", null, 922, 1
+89, 27, "Purple", null, 922, 0
+90, 28, "Magenta", null, 557, 1
+91, 28, "Maroon", null, 557, 0
+92, 29, "Grey", null, 683, 1
+93, 29, "Sky blue", null, 683, 0
+94, 30, "Red", null, 191, 1
+95, 30, "Lime", 128, 191, 0
+96, 30, "Grey", null, 191, 0
+97, 30, "Green", null, 191, 0
+98, 31, "Silver", null, 954, 1
+99, 31, "Green", null, 954, 0
+100, 31, "Maroon", 245, 954, 0
+101, 31, "White", 447, 954, 0
+102, 32, "Cyan", null, 263, 1
+103, 32, "White", null, 263, 0
+104, 32, "Red", null, 263, 0
+105, 34, "Lavender", null, 465, 1
+106, 34, "Maroon", null, 465, 0
+107, 34, "Pink", null, 465, 0
+108, 35, "Indigo", null, 256, 1
+109, 35, "Magenta", null, 256, 0
+110, 35, "Turquoise", null, 256, 0
+111, 35, "Purple", null, 256, 0
+112, 37, "Sky blue", null, 12, 1
+113, 37, "Salmon", null, 17, 0
+114, 40, "Blue", null, 556, 1
+115, 40, "Violet", null, 556, 0
+116, 40, "Tan", null, 556, 0
+117, 40, "Lime", null, 556, 0
+118, 40, "White", null, 556, 0
+119, 41, "Yellow", null, 653, 1
+120, 41, "Tan", null, 653, 0
+121, 42, "Sky blue", 419, 603, 1
+122, 42, "Green", null, 603, 0
+123, 43, "Grey", null, 286, 1
+124, 44, "Cyan", null, 681, 1
+125, 44, "Turquoise", null, 681, 0
+126, 45, "Black", null, 793, 1
+127, 46, "Black", null, 858, 1
+128, 46, "Green", null, 858, 0
+129, 46, "Indigo", 545, 1252, 0
+130, 47, "Azure", null, 219, 1
+131, 47, "Mint green", null, 219, 0
+132, 49, "Ivory", null, 874, 1
+133, 50, "Tan", null, 950, 1
+134, 50, "Plum", null, 950, 0
+135, 51, "Salmon", null, 813, 1
+136, 51, "Violet", null, 813, 0
+137, 51, "Red", null, 813, 0
+138, 52, "Orange", null, 858, 1
+139, 54, "White", null, 782, 1
+140, 54, "Azure", null, 782, 0
+141, 54, "Tan", null, 782, 0
+142, 55, "Lavender", null, 532, 1
+143, 57, "Sky blue", null, 818, 1
+144, 59, "Lavender", null, 319, 1
+145, 59, "Grey", null, 319, 0
+146, 59, "Grey", null, 319, 0
+147, 60, "White", null, 29, 1
+148, 60, "Indigo", 19, 29, 0
+149, 60, "Azure", null, 29, 0
+150, 60, "Turquoise", null, 29, 0
+151, 61, "Purple", null, 740, 1
+152, 61, "White", null, 740, 0
+153, 62, "Purple", null, 830, 1
+154, 62, "Ivory", null, 496, 0
+155, 63, "Red", null, 370, 1
+156, 63, "Grey", null, 370, 0
+157, 63, "Mint green", 90, 370, 0
+158, 64, "Mint green", null, 463, 1
+159, 65, "Cyan", null, 926, 1
+160, 66, "White", null, 905, 1
+161, 66, "Maroon", null, 905, 0
+162, 67, "Ivory", null, 316, 1
+163, 68, "Teal", 159, 636, 1
+164, 68, "Silver", null, 636, 0
+165, 69, "Pink", null, 121, 1
+166, 70, "Mint green", null, 998, 1
+167, 70, "White", null, 998, 0
+168, 71, "Ivory", null, 401, 1
+169, 71, "Tan", null, 379, 0
+170, 71, "Ivory", null, 379, 0
+171, 72, "Purple", null, 9, 1
+172, 74, "Blue", null, 470, 1
+173, 74, "Grey", null, 470, 0
+174, 75, "Purple", null, 1137, 1
+175, 75, "Pink", null, 815, 0
+176, 76, "Red", null, 532, 1
+177, 78, "Purple", null, 273, 1
+178, 81, "Maroon", null, 586, 1
+179, 81, "Red", null, 586, 0
+180, 81, "Olive", null, 420, 0
+181, 81, "Pink", null, 602, 0
+182, 81, "Fuchsia", null, 586, 0
+183, 82, "Blue", null, 460, 1
+184, 82, "Purple", null, 460, 0
+185, 82, "Fuchsia", null, 460, 0
+186, 82, "Teal", null, 460, 0
+187, 83, "Lime", null, 1, 1
+188, 83, "Plum", null, 1, 0
+189, 85, "Violet", null, 809, 1
+190, 86, "Silver", null, 251, 1
+191, 87, "Orange", 78, 362, 1
+192, 87, "Violet", null, 248, 0
+193, 87, "Lime", null, 248, 0
+194, 87, "Tan", null, 248, 0
+195, 87, "Magenta", null, 248, 0
+196, 87, "Sky blue", null, 248, 0
+197, 87, "Ivory", null, 248, 0
+198, 88, "Purple", null, 522, 1
+199, 89, "White", null, 539, 1
+200, 90, "Magenta", null, 202, 1
+201, 90, "Purple", null, 202, 0
+202, 90, "Maroon", null, 202, 0
+203, 91, "Magenta", null, 400, 1
+204, 91, "Black", null, 400, 0
+205, 91, "Tan", null, 400, 0
+206, 92, "Olive", null, 24, 1
+207, 93, "Silver", null, 677, 1
+208, 93, "Fuchsia", null, 677, 0
+209, 93, "Maroon", null, 677, 0
+210, 95, "Fuchsia", null, 420, 1
+211, 95, "Fuchsia", null, 554, 0
+212, 95, "Olive", null, 420, 0
+213, 96, "Purple", null, 86, 1
+214, 96, "White", null, 106, 0
+215, 96, "Blue", null, 86, 0
+216, 97, "Lime", null, 971, 1
+217, 98, "Sky blue", 35, 39, 1
+218, 98, "Salmon", null, 39, 0
+219, 98, "Indigo", null, 39, 0
+220, 98, "Turquoise", null, 39, 0
+221, 98, "Maroon", 17, 39, 0
+222, 99, "Turquoise", 58, 366, 1
+223, 102, "Orange", null, 990, 1
+224, 102, "Teal", null, 990, 0
+225, 102, "Green", null, 990, 0
+226, 103, "Gold", null, 818, 1
+227, 103, "Plum", null, 818, 0
+228, 105, "Black", null, 176, 1
+229, 106, "Plum", null, 369, 1
+230, 106, "Yellow", null, 369, 0
+231, 106, "Blue", null, 369, 0
+232, 106, "Grey", null, 369, 0
+233, 107, "Violet", null, 785, 1
+234, 109, "Red", null, 385, 1
+235, 109, "Tan", null, 385, 0
+236, 109, "Cyan", null, 385, 0
+237, 110, "Lavender", null, 441, 1
+238, 110, "Orchid", null, 441, 0
+239, 110, "Lime", null, 441, 0
+240, 111, "Green", null, 967, 1
+241, 111, "Teal", 709, 967, 0
+242, 111, "Orange", null, 967, 0
+243, 112, "White", null, 647, 1
+244, 113, "Olive", null, 774, 1
+245, 113, "Pink", null, 774, 0
+246, 113, "Black", null, 774, 0
+247, 113, "Silver", null, 774, 0
+248, 114, "Green", null, 388, 1
+249, 114, "Grey", null, 388, 0
+250, 114, "Salmon", 54, 388, 0
+251, 114, "Black", null, 388, 0
+252, 116, "Red", null, 195, 1
+253, 116, "Indigo", null, 195, 0
+254, 117, "Gold", 263, 285, 1
+255, 118, "Silver", null, 821, 1
+256, 118, "Tan", 212, 821, 0
+257, 118, "Cyan", null, 821, 0
+258, 118, "Turquoise", 170, 821, 0
+259, 119, "Salmon", null, 136, 1
+260, 119, "Salmon", 51, 136, 0
+261, 119, "Blue", null, 136, 0
+262, 121, "Cyan", null, 937, 1
+263, 121, "Magenta", null, 937, 0
+264, 124, "Cyan", null, 479, 1
+265, 124, "Orchid", null, 479, 0
+266, 124, "Mint green", null, 479, 0
+267, 125, "Lavender", null, 598, 1
+268, 125, "Azure", null, 598, 0
+269, 125, "Gold", null, 598, 0
+270, 125, "Gold", null, 634, 0
+271, 125, "Orchid", null, 598, 0
+272, 125, "Fuchsia", null, 598, 0
+273, 126, "Orchid", null, 354, 1
+274, 126, "Blue", null, 354, 0
+275, 126, "Maroon", null, 354, 0
+276, 127, "Ivory", 222, 293, 1
+277, 127, "Magenta", null, 581, 0
+278, 129, "Magenta", 11, 61, 1
+279, 130, "Teal", null, 18, 1
+280, 132, "Sky blue", null, 968, 1
+281, 132, "Salmon", null, 968, 0
+282, 132, "Yellow", null, 968, 0
+283, 133, "Teal", null, 781, 1
+284, 134, "Lavender", null, 759, 1
+285, 136, "Azure", null, 854, 1
+286, 136, "Lime", null, 854, 0
+287, 136, "Yellow", null, 854, 0
+288, 137, "Olive", null, 886, 1
+289, 137, "Indigo", null, 886, 0
+290, 138, "Lavender", null, 954, 1
+291, 139, "Green", null, 778, 1
+292, 139, "Yellow", 86, 620, 0
+293, 141, "Fuchsia", null, 786, 1
+294, 141, "Indigo", null, 786, 0
+295, 141, "Mint green", null, 786, 0
+296, 141, "Magenta", null, 786, 0
+297, 143, "White", null, 78, 1
+298, 143, "Mint green", null, 78, 0
+299, 143, "Azure", 40, 78, 0
+300, 143, "Magenta", null, 78, 0
+301, 144, "Yellow", null, 74, 1
+302, 145, "Grey", null, 53, 1
+303, 145, "Gold", null, 53, 0
+304, 146, "Blue", null, 59, 1
+305, 147, "Salmon", 1, 134, 1
+306, 147, "Green", null, 128, 0
+307, 147, "Silver", null, 128, 0
+308, 147, "Red", null, 128, 0
+309, 149, "Orange", null, 574, 1
+310, 149, "Salmon", null, 574, 0
+311, 149, "Lavender", 113, 574, 0
+312, 149, "Purple", null, 574, 0
+313, 151, "Maroon", null, 89, 1
+314, 151, "Salmon", null, 89, 0
+315, 151, "Magenta", 25, 123, 0
+316, 152, "Salmon", null, 1243, 1
+317, 152, "Purple", null, 946, 0
+318, 152, "Cyan", null, 946, 0
+319, 153, "Violet", null, 773, 1
+320, 153, "Lime", null, 773, 0
+321, 153, "Lime", 102, 867, 0
+322, 153, "Salmon", null, 773, 0
+323, 154, "Azure", null, 547, 1
+324, 155, "Magenta", 261, 969, 1
+325, 155, "Maroon", null, 969, 0
+326, 156, "Lavender", null, 367, 1
+327, 157, "Magenta", null, 997, 1
+328, 158, "Lavender", null, 617, 1
+329, 159, "Orchid", null, 536, 1
+330, 160, "Ivory", null, 252, 1
+331, 160, "Azure", null, 252, 0
+332, 161, "Fuchsia", null, 407, 1
+333, 161, "Yellow", null, 407, 0
+334, 163, "Turquoise", null, 815, 1
+335, 163, "Violet", null, 815, 0
+336, 163, "Orchid", null, 815, 0
+337, 163, "Black", null, 815, 0
+338, 164, "Orange", null, 475, 1
+339, 164, "Green", null, 475, 0
+340, 164, "Orchid", null, 282, 0
+341, 164, "Azure", null, 475, 0
+342, 165, "Red", null, 701, 1
+343, 166, "Mint green", 70, 81, 1
+344, 166, "Lime", 75, 81, 0
+345, 166, "Gold", null, 70, 0
+346, 168, "White", 350, 389, 1
+347, 168, "Orange", null, 624, 0
+348, 168, "Violet", null, 624, 0
+349, 168, "Lavender", null, 371, 0
+350, 169, "Blue", null, 3, 1

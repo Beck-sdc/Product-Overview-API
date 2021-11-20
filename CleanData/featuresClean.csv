@@ -1,0 +1,351 @@
+id, product_id, feature, value
+1, 1,Fabric,Canvas
+2, 1,Buttons,Brass
+3, 2,Lenses,Ultrasheen
+4, 2,UV Protection, null
+5, 2,Frames,LightCompose
+6, 3,Fabric,100% Cotton
+7, 3,Cut,Skinny
+8, 4,Fabric,99% Cotton 1% Elastic
+9, 4,Cut,Loose
+10, 5,Sole,Rubber
+11, 5,Material,FullControlSkin
+12, 5,Mid-Sole,ControlSupport Arch Bridge
+13, 5,Stitching,Double Stitch
+14, 6,Sole,Rubber
+15, 6,Material,FullControlSkin
+16, 6,Mid-Sole,ControlSupport Arch Bridge
+17, 6,Stitching,Double Stitch
+18, 7,Sole,Rubber
+19, 7,Material,FullControlSkin
+20, 7,Stitching,Double Stitch
+21, 8,Sole,Rubber
+22, 8,Material,FullControlSkin
+23, 8,Stitching,Double Stitch
+24, 9,Sole,Rubber
+25, 9,Material,FullControlSkin
+26, 9,Mid-Sole,ControlSupport Arch Bridge
+27, 9,Stitching,Double Stitch
+28, 11,Sole,Rubber
+29, 11,Material,FullControlSkin
+30, 11,Stitching,Double Stitch
+31, 12,Frame,AllLight Composition Resin
+32, 13,Cut,Loose
+33, 13,Lens,Ultrasheen Basic
+34, 13,Green Leaf Certified, null
+35, 14,Fabric,Cashmere
+36, 15,Buttons,White Resin
+37, 16,Stitching,Cross Stitch
+38, 17,Lifetime Guarantee, null
+39, 17,Non-GMO, null
+40, 17,Fabric,"95% Cotton, 5% Elastic"
+41, 17,Lifetime Guarantee, null
+42, 18,Lens,100% UV Protective
+43, 18,Fair Trade Certified, null
+44, 19,Stitching,Cross Stitch
+45, 19,5 Year Warranty, null
+46, 20,Lifetime Guarantee, null
+47, 20,5 Year Warranty, null
+48, 21,Material,FullSupport Hybrid Compound
+49, 21,Lifetime Guarantee, null
+50, 22,Lens,Ultrasheen Gold
+51, 22,Non-GMO, null
+52, 23,5 Year Warranty, null
+53, 23,Fair Trade Certified, null
+54, 24,Cut,Skinny
+55, 25,Green Leaf Certified, null
+56, 25,Stitching,Cross Stitch
+57, 26,Cut,Skinny
+58, 27,Cut,Loose
+59, 28,Stitching,Double Stitch
+60, 28,Satisfaction Guaranteed, null
+61, 28,Frame,AllLight Composition Resin
+62, 29,Fair Trade Certified, null
+63, 29,Satisfaction Guaranteed, null
+64, 30,Cut,Loose
+65, 30,Frame,DuraResin
+66, 30,Lifetime Guarantee, null
+67, 31,Fabric,Wool
+68, 31,Fair Trade Certified, null
+69, 32,Lens,Ultrasheen Gold
+70, 33,Stitching,Cross Stitch
+71, 33,Non-GMO, null
+72, 34,Cut,Striaght
+73, 34,Sustainably Sourced, null
+74, 35,Non-GMO, null
+75, 35,Green Leaf Certified, null
+76, 35,Satisfaction Guaranteed, null
+77, 36,Lens,Ultrasheen Gold
+78, 36,Non-GMO, null
+79, 36,5 Year Warranty, null
+80, 37,Cut,Skinny
+81, 37,Green Leaf Certified, null
+82, 37,Cut,Loose
+83, 38,Fabric,Wool
+84, 38,Cut,Skinny
+85, 39,Sustainably Sourced, null
+86, 39,Cut,Loose
+87, 40,Sustainably Sourced, null
+88, 40,Lifetime Guarantee, null
+89, 41,5 Year Warranty, null
+90, 41,Cut,Striaght
+91, 41,Fair Trade Certified, null
+92, 42,Frame,DuraResin
+93, 42,Cut,Skinny
+94, 43,Frame,DuraResin
+95, 43,Satisfaction Guaranteed, null
+96, 43,Non-GMO, null
+97, 44,Green Leaf Certified, null
+98, 44,Fabric,Cool Fit
+99, 45,Fabric,Canvas
+100, 46,Lifetime Guarantee, null
+101, 47,Lifetime Guarantee, null
+102, 47,Satisfaction Guaranteed, null
+103, 48,Lifetime Guarantee, null
+104, 49,Frame,AllLight Composition Resin
+105, 50,Green Leaf Certified, null
+106, 50,Fabric,"80% Cotton, 20% Polyester"
+107, 51,Fabric,Cashmere
+108, 51,Stitching,Cross Stitch
+109, 52,Frame,AllLight Composition Resin
+110, 52,Buttons,White Resin
+111, 53,Lens,Ultrasheen Basic
+112, 54,Cut,Straight
+113, 54,Non-GMO, null
+114, 55,Cut,Striaght
+115, 55,Cut,Loose
+116, 55,Material,Control Support Bridge
+117, 55,Fabric,Cashmere
+118, 56,Lens,100% UV Protective
+119, 56,Green Leaf Certified, null
+120, 57,Lifetime Guarantee, null
+121, 58,Satisfaction Guaranteed, null
+122, 58,Material,Control Support Bridge
+123, 58,Non-GMO, null
+124, 58,Non-GMO, null
+125, 59,Satisfaction Guaranteed, null
+126, 60,Fabric,Wool
+127, 60,Frame,DuraResin
+128, 61,Green Leaf Certified, null
+129, 61,Green Leaf Certified, null
+130, 62,Non-GMO, null
+131, 62,Non-GMO, null
+132, 62,Material,FullSupport Hybrid Compound
+133, 63,Cut,Skinny
+134, 63,Lens,Ultrasheen Basic
+135, 64,Fabric,"95% Cotton, 5% Elastic"
+136, 65,Satisfaction Guaranteed, null
+137, 65,Lifetime Guarantee, null
+138, 65,Lifetime Guarantee, null
+139, 65,Stitching,Cross Stitch
+140, 66,Material,FullSupport Hybrid Compound
+141, 66,Non-GMO, null
+142, 67,Non-GMO, null
+143, 67,Cut,Striaght
+144, 67,Frame,AllLight Composition Resin
+145, 67,Green Leaf Certified, null
+146, 68,Sustainably Sourced, null
+147, 68,Stitching,Cross Stitch
+148, 68,Sustainably Sourced, null
+149, 69,Buttons,Brass
+150, 69,5 Year Warranty, null
+151, 70,Lens,Ultrasheen Silver
+152, 71,Satisfaction Guaranteed, null
+153, 72,Sustainably Sourced, null
+154, 72,Fair Trade Certified, null
+155, 72,Non-GMO, null
+156, 73,Non-GMO, null
+157, 73,Buttons,Brass
+158, 74,Lens,Ultrasheen Silver
+159, 74,Non-GMO, null
+160, 74,Green Leaf Certified, null
+161, 75,Frame,AllLight Composition Resin
+162, 76,Non-GMO, null
+163, 76,Non-GMO, null
+164, 76,Lens,Ultrasheen Silver
+165, 76,Sustainably Sourced, null
+166, 77,Buttons,Ivory
+167, 78,Cut,Straight
+168, 78,Non-GMO, null
+169, 78,Buttons,Blue Resin
+170, 79,Sustainably Sourced, null
+171, 79,Satisfaction Guaranteed, null
+172, 80,Cut,Straight
+173, 80,Green Leaf Certified, null
+174, 80,Frame,DuraResin
+175, 81,Lens,100% UV Protective
+176, 82,Lens,100% UV Protective
+177, 82,Buttons,Black Resin
+178, 83,Lifetime Guarantee, null
+179, 83,Cut,Straight
+180, 83,Non-GMO, null
+181, 84,Material,Armor Weave
+182, 84,5 Year Warranty, null
+183, 84,Cut,Loose
+184, 85,Non-GMO, null
+185, 85,Non-GMO, null
+186, 85,Non-GMO, null
+187, 86,Buttons,Blue Resin
+188, 86,Cut,Loose
+189, 87,5 Year Warranty, null
+190, 87,Fabric,100% Cotton
+191, 88,Cut,Loose
+192, 88,Stitching,Double Stitch
+193, 88,Green Leaf Certified, null
+194, 88,Buttons,Ivory
+195, 89,Satisfaction Guaranteed, null
+196, 89,Cut,Straight
+197, 90,Fabric,Velvet
+198, 91,Non-GMO, null
+199, 92,Non-GMO, null
+200, 92,Lens,Ultrasheen Basic
+201, 93,5 Year Warranty, null
+202, 94,Material,Control Support Bridge
+203, 94,Cut,Skinny
+204, 95,5 Year Warranty, null
+205, 95,Lens,100% UV Protective
+206, 95,Green Leaf Certified, null
+207, 96,Stitching,Double Stitch
+208, 97,Cut,Skinny
+209, 97,Lifetime Guarantee, null
+210, 98,Satisfaction Guaranteed, null
+211, 98,Frame,AllLight Composition Resin
+212, 98,Stitching,Cross Stitch
+213, 99,Material,FullSupport Hybrid Compound
+214, 99,Stitching,Cross Stitch
+215, 100,Lens,Ultrasheen Basic
+216, 100,Buttons,White Resin
+217, 101,5 Year Warranty, null
+218, 101,Fair Trade Certified, null
+219, 101,Fair Trade Certified, null
+220, 102,Lifetime Guarantee, null
+221, 102,Lifetime Guarantee, null
+222, 103,Non-GMO, null
+223, 103,Fabric,100% Cotton
+224, 103,5 Year Warranty, null
+225, 103,5 Year Warranty, null
+226, 104,Cut,Skinny
+227, 104,Buttons,Ivory
+228, 104,Cut,Skinny
+229, 104,Fair Trade Certified, null
+230, 105,Cut,Loose
+231, 106,Cut,Loose
+232, 106,Material,Control Support Bridge
+233, 107,Frame,AllLight Composition Resin
+234, 108,Cut,Skinny
+235, 109,Green Leaf Certified, null
+236, 109,Lifetime Guarantee, null
+237, 110,Lens,100% UV Protective
+238, 111,Lens,Ultrasheen Silver
+239, 112,Cut,Straight
+240, 112,Fair Trade Certified, null
+241, 112,5 Year Warranty, null
+242, 113,Green Leaf Certified, null
+243, 114,Material,FullControl Skin
+244, 114,Green Leaf Certified, null
+245, 114,Non-GMO, null
+246, 115,Material,FullControl Skin
+247, 115,Fair Trade Certified, null
+248, 115,Satisfaction Guaranteed, null
+249, 116,Material,Rubber Mesh
+250, 116,Fair Trade Certified, null
+251, 117,Non-GMO, null
+252, 117,Fabric,Silk
+253, 118,Lifetime Guarantee, null
+254, 118,Satisfaction Guaranteed, null
+255, 118,Green Leaf Certified, null
+256, 119,Non-GMO, null
+257, 120,Frame,AllLight Composition Resin
+258, 120,Frame,AllLight Composition Resin
+259, 121,Lens,Ultrasheen Gold
+260, 121,Lens,100% UV Protective
+261, 122,Material,Armor Weave
+262, 123,Cut,Skinny
+263, 123,Lifetime Guarantee, null
+264, 123,Green Leaf Certified, null
+265, 124,Fabric,100% Cotton
+266, 124,Buttons,Ivory
+267, 125,Lifetime Guarantee, null
+268, 125,Green Leaf Certified, null
+269, 126,Fair Trade Certified, null
+270, 127,Non-GMO, null
+271, 127,Non-GMO, null
+272, 128,Buttons,Ivory
+273, 128,Buttons,White Resin
+274, 128,Green Leaf Certified, null
+275, 129,Fabric,Velvet
+276, 129,Cut,Straight
+277, 130,Stitching,Double Stitch
+278, 130,Lifetime Guarantee, null
+279, 130,Frame,DuraResin
+280, 130,Buttons,Brass
+281, 131,Frame,AllLight Composition Resin
+282, 131,Fair Trade Certified, null
+283, 132,Lifetime Guarantee, null
+284, 132,Frame,DuraResin
+285, 132,Lens,100% UV Protective
+286, 133,Stitching,Cross Stitch
+287, 133,Lifetime Guarantee, null
+288, 133,Cut,Loose
+289, 134,Non-GMO, null
+290, 134,Sustainably Sourced, null
+291, 135,Lens,100% UV Protective
+292, 135,Frame,DuraResin
+293, 135,Frame,AllLight Composition Resin
+294, 136,5 Year Warranty, null
+295, 136,Green Leaf Certified, null
+296, 137,Material,Rubber Mesh
+297, 138,Cut,Skinny
+298, 138,Non-GMO, null
+299, 138,Fabric,Cashmere
+300, 138,Buttons,Blue Resin
+301, 139,5 Year Warranty, null
+302, 139,Fabric,"95% Cotton, 5% Elastic"
+303, 139,Non-GMO, null
+304, 140,Sustainably Sourced, null
+305, 141,Lens,Ultrasheen Gold
+306, 141,Sustainably Sourced, null
+307, 141,Non-GMO, null
+308, 141,Material,FullSupport Hybrid Compound
+309, 142,Sustainably Sourced, null
+310, 142,Satisfaction Guaranteed, null
+311, 143,Fabric,"95% Cotton, 5% Elastic"
+312, 144,Material,FullControl Skin
+313, 144,Non-GMO, null
+314, 145,Satisfaction Guaranteed, null
+315, 145,Stitching,Double Stitch
+316, 145,Fair Trade Certified, null
+317, 145,Fabric,"95% Cotton, 5% Elastic"
+318, 146,Lifetime Guarantee, null
+319, 146,Cut,Striaght
+320, 147,5 Year Warranty, null
+321, 147,Buttons,Brass
+322, 147,Material,FullControl Skin
+323, 147,Non-GMO, null
+324, 148,Non-GMO, null
+325, 148,Frame,DuraResin
+326, 149,Buttons,White Resin
+327, 149,Green Leaf Certified, null
+328, 149,Fabric,Velvet
+329, 150,Lifetime Guarantee, null
+330, 150,Stitching,Cross Stitch
+331, 151,Sustainably Sourced, null
+332, 151,5 Year Warranty, null
+333, 151,Non-GMO, null
+334, 152,Cut,Skinny
+335, 152,Lens,Ultrasheen Gold
+336, 152,Non-GMO, null
+337, 153,Material,Rubber Mesh
+338, 153,Green Leaf Certified, null
+339, 154,Buttons,Black Resin
+340, 154,Lens,100% UV Protective
+341, 154,Non-GMO, null
+342, 155,Green Leaf Certified, null
+343, 155,Stitching,Double Stitch
+344, 155,Lifetime Guarantee, null
+345, 156,Non-GMO, null
+346, 156,5 Year Warranty, null
+347, 156,Satisfaction Guaranteed, null
+348, 157,Material,Rubber Mesh
+349, 157,5 Year Warranty, null
+350, 157,Satisfaction Guaranteed, null

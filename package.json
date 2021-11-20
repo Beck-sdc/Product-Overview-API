@@ -1,0 +1,30 @@
+{
+  "name": "sdc-products-overview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "cleanca": "nodemon DataCleaners/cartCleaner.js",
+    "cleanfe": "nodemon DataCleaners/featuresCleaner.js",
+    "cleanph": "nodemon DataCleaners/photosCleaner.js",
+    "cleanpr": "nodemon DataCleaners/productsCleaner.js",
+    "cleansk": "nodemon DataCleaners/skusCleaner.js",
+    "cleanst": "nodemon DataCleaners/stylesCleaner.js"
+  },
+  "author": "Kaitlyn Gill",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "@fast-csv/format": "^4.3.5",
+    "@fast-csv/parse": "^4.3.6",
+    "fast-csv": "^4.3.6",
+    "nodemon": "^2.0.15"
+  }
+}
