@@ -1,3 +1,4 @@
+require('newrelic');
 const express = require('express');
 const app = express();
 const cors = require('cors');
@@ -5,6 +6,7 @@ const morgan = require('morgan');
 const db = require('../db');
 const router = require('./routes');
 const port = 3001;
+
 
 app.use(cors());
 app.use(morgan('dev'));
