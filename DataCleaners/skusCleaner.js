@@ -2,7 +2,7 @@ const fs = require('fs');
 const csv = require('fast-csv');
 const path = require('path');
 
-const originFilePath = path.join(__dirname, '../OriginalData/skusOriginal.csv');
+const originFilePath = path.join(__dirname, '../OriginalData/skus.csv');
 const destinationFilePath = path.join(__dirname, '../CleanData/skusClean.csv');
 
 fs.writeFileSync(destinationFilePath, '');

@@ -3,7 +3,7 @@ const csv = require('fast-csv');
 const path = require('path');
 
 
-const originFilePath = path.join(__dirname, '../OriginalData/featuresOriginal.csv');
+const originFilePath = path.join(__dirname, '../OriginalData/features.csv');
 const destinationFilePath = path.join(__dirname, '../CleanData/featuresClean.csv');
 
 

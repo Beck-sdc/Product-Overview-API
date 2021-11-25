@@ -3,7 +3,7 @@ const csv = require('fast-csv');
 const path = require('path');
 
 
-const originFilePath = path.join(__dirname, '../OriginalData/photosOriginal.csv');
+const originFilePath = path.join(__dirname, '../OriginalData/photos.csv');
 const destinationFilePath = path.join(__dirname, '../CleanData/photosClean.csv');
 
 
@@ -15,7 +15,7 @@ const csvStream = csv.format({ headers: true });
 csvStream.pipe(writableStream);
 
 readableStream
-  .pipe(csv.parse({ headers: true }))
+  .pipe(csv.parse())
   .on('data', (row) => {
     csvStream.write(row);
   })
