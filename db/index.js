@@ -9,12 +9,5 @@ const dbConnection = new Pool({
   port: 5432,
 });
 
-// dbConnection.connect((error) => {
-//   if (error) {
-//     console.log('Connection error: ', error);
-//   } else {
-//     console.log('Connected to database!!');
-//   }
-// });
 
 module.exports = dbConnection;
