@@ -13,7 +13,7 @@ const controller = {
       if (error) {
         res.status(404).send(error);
       } else {
-        res.status(201).send(results.rows);
+        res.status(200).send(results.rows);
       }
     });
   },
@@ -29,7 +29,7 @@ const controller = {
         console.log(error)
         res.status(404).send(error);
       } else {
-        res.status(201).send(results.rows[0]);
+        res.status(200).send(results.rows[0]);
       }
     })
 
@@ -51,7 +51,7 @@ const controller = {
 
         res.status(404).send(error);
       } else {
-        res.status(201).send(results.rows);
+        res.status(200).send(results.rows);
       }
     })
   },
@@ -81,7 +81,7 @@ const controller = {
       if (error) {
         res.status(404).send(error);
       } else {
-        res.status(201).send(results.rows);
+        res.status(200).send(results.rows);
       }
     })
   }
