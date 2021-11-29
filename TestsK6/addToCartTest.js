@@ -8,7 +8,7 @@ export const options = {
 };
 
 export default function () {
-  const url = 'http://localhost:3001/cart';
+  const url = 'https://localhost:3001/cart';
   const payload = {
     "user_session": 1111,
     "product_id": 1,

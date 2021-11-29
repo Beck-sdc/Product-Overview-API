@@ -56,15 +56,15 @@ CREATE INDEX product_id_features_index ON features(product_id ASC);
 
 
 
-COPY product FROM '/Users/KaitlynMichael/Desktop/Product-Overview-API/CleanData/productsClean.csv' WITH delimiter ',' NULL AS ' null' csv header;
+COPY product FROM '/Users/KaitlynMichael/Desktop/Product-Overview-API/CleanData/productsClean.csv' WITH delimiter ',' NULL AS 'null' csv header;
 
 COPY features FROM '/Users/KaitlynMichael/Desktop/Product-Overview-API/CleanData/featuresClean.csv'  WITH delimiter ',' NULL AS 'null' csv header;
 
-COPY styles FROM '/Users/KaitlynMichael/Desktop/Product-Overview-API/CleanData/stylesClean.csv'  WITH delimiter ',' NULL AS 'null' csv header;
+COPY styles FROM '/Users/KaitlynMichael/Desktop/Product-Overview-API/CleanData/stylesClean.csv'  WITH delimiter ',' NULL AS ' null' csv header;
 
 COPY photos FROM '/Users/KaitlynMichael/Desktop/Product-Overview-API/OriginalData/photos.csv' WITH delimiter ',' NULL AS 'null' csv header;
 
-COPY skus FROM  '/Users/KaitlynMichael/Desktop/Product-Overview-API/CleanData/skusClean.csv' WITH delimiter ',' NULL AS ' null' csv header;
+COPY skus FROM  '/Users/KaitlynMichael/Desktop/Product-Overview-API/CleanData/skusClean.csv' WITH delimiter ',' NULL AS 'null' csv header;
 
 COPY cart FROM '/Users/KaitlynMichael/Desktop/Product-Overview-API/CleanData/cartClean.csv'  WITH delimiter ',' NULL AS 'null' csv header;
 
