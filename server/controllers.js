@@ -3,12 +3,12 @@ const pgp = require('pg-promise')();
 
 const controller = {
 
-  getAll: async (req, res) => {
+  getAll: (req, res) => {
     const page = req.query.page || 1;
     const count = req.query.count || 5;
 
     const queryString = 'SELECT * FROM product ORDER BY product_id asc LIMIT $1 OFFSET $2';
-    await db.query(queryString, [count, page - 1], (error, results) => {
+    db.query(queryString, [count, page - 1], (error, results) => {
 
       if (error) {
         res.status(404).send(error);
@@ -18,13 +18,13 @@ const controller = {
     });
   },
 
-  getOne: async (req, res) => {
+  getOne: (req, res) => {
     const productId = req.params.product_id;
     const queryString = `(SELECT *,
       (SELECT array_to_json(array_agg(row_to_json(Features)))  as features FROM
       (SELECT feature, value FROM features WHERE product_id = $1) features )
       FROM product WHERE product_id = $1)  `;
-    await db.query(queryString, [productId], (error, results) => {
+    db.query(queryString, [productId], (error, results) => {
       if (error) {
         console.log(error)
         res.status(404).send(error);
@@ -35,7 +35,7 @@ const controller = {
 
   },
 
-  getProductStyles: async (req, res) => {
+  getProductStyles: (req, res) => {
     const productId = req.params.product_id;
     const queryString = `
   SELECT product_id,
@@ -46,7 +46,7 @@ const controller = {
   (SELECT json_object_agg(sku_id, json_build_object('quantity', quantity, 'size', size)) FROM
   (SELECT * FROM skus WHERE skus.style_id = styles.style_id) s) skus
   FROM styles WHERE product_id = $1) Results) FROM styles WHERE product_id = $1; `;
-    await db.query(queryString, [productId], (error, results) => {
+    db.query(queryString, [productId], (error, results) => {
       if (error) {
 
         res.status(404).send(error);
